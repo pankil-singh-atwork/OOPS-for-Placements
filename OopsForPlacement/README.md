@@ -1,7 +1,6 @@
-## Getting Started
+## Java OOPS for Placments
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
+- This folder has all the basic OOPS concepts (Inhertiance , Polymorphism , Encapsulation)
 ## Folder Structure
 
 The workspace contains two folders by default, where:
