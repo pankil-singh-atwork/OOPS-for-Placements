@@ -2,6 +2,7 @@ package InheritancePackage;
 // Inherited class -> child class -> BoxWeight & Base class -> Box
 public class BoxWeight extends Box{
     int weight;
+    // Boxweight Constructor
     BoxWeight(int l , int w , int h , int weight) {
         // this.l = l;
         // this.w = w;
