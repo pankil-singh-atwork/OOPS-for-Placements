@@ -10,6 +10,12 @@ public class Box {
         this.h = -1;
         this.w = -1;
     }
+    Box(Box old) {
+        System.out.println("Box object constructor");
+        this.l = old.l;
+        this.w = old.w;
+        this.h = old.h;
+    }
     Box(int side) {
         this.l = side;
         this.w = side;

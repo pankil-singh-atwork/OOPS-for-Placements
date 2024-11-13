@@ -3,7 +3,7 @@ public class InheritanceIntro {
 
     public static void main(String[] args) {
         // Box b1 = new Box(5 , 6 , 6);
-        // BoxWeight b1Weight = new BoxWeight(6, 5, 7, 67);
+        BoxWeight b1 = new BoxWeight(6, 5, 7, 67);
         // System.out.println(b1Weight.h);
 
         // Parent reference variable -> child object
@@ -18,5 +18,7 @@ public class InheritanceIntro {
         // but here, when the obj itself is of type parent class, how will you call the constructor of child class
         // this is why error
         // BoxWeight box6 = new Box(2 , 5 ,6 , 98);
+        BoxWeight b3 = new BoxWeight(b1);
+        System.out.println(b3.l + " " + b3.w + " " + b3.h + " " + b3.weight);
     }
 }
