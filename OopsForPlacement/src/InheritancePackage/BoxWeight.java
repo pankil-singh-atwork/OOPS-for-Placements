@@ -2,7 +2,12 @@ package InheritancePackage;
 // Inherited class -> child class -> BoxWeight & Base class -> Box
 public class BoxWeight extends Box{
     int weight;
-    // defining another constructor to take argument as the object
+    // defining A default Constructor 
+    BoxWeight() {
+        super();
+        this.weight = -1;
+    }
+    // defining another constructor to take argument as the object 
     BoxWeight(BoxWeight other) {
         super(other);
         this.weight = other.weight;
